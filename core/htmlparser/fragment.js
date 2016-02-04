@@ -262,11 +262,6 @@ CKEDITOR.htmlParser.fragment = function() {
 				inTextarea = true;
 			}
 
-			if ( tagName == 'br' ) {
-				pendingBRs.push( element );
-				return;
-			}
-
 			while ( 1 ) {
 				var currentName = currentNode.name;
 
