@@ -1,6 +1,12 @@
 CKEditor 4 Changelog
 ====================
 
+## CKEditor 4.5.5-r1
+
+Fixed Issues:
+
+* [#LPS-62882](https://issues.liferay.com/browse/LPS-62882): Line break tags are no longer moved outside of their parent elements.
+
 ## CKEditor 4.5.5
 
 Fixed Issues:
